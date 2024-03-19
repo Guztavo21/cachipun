@@ -11,7 +11,7 @@ function iniciarJuego() {
 }
 
 function actualizarRonda() {
-    document.getElementById('partidaJugada').innerText = rondasJugadas + 1;
+    document.getElementById('partidaJugada').innerText = rondasJugadas ;
 }
 
 function play(opcionUsuario) {
